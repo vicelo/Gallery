@@ -1,7 +1,7 @@
 {
-  "name": "cardiftemplate",
+  "name": "gallerytemplate",
   "version": "1.0.0",
-  "description": "template html pour le site Cardif",
+  "description": "template html pour le site Gallery",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
@@ -10,7 +10,7 @@
     "buildWithoutJquery": "gulp buildWithoutJquery",
     "default": "gulp default"
   },
-  "author": "tgalais",
+  "author": "PAValue",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.14",
