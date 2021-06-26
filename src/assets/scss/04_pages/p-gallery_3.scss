@@ -1,0 +1,83 @@
+.o-gallery {
+  overflow-x: hidden;
+}
+
+.o-sous-gallery_content {
+  // border: solid 4px black;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "o-gallery_paragraph o-gallery_paragraph o-gallery_paragraph m-image m-image m-image";
+
+  .o-gallery_paragraph {
+    grid-area: o-gallery_paragraph;
+    // border: solid 4px red ;
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    .m-gallery-div {
+      //   border: solid 4px blue;
+      margin: 3rem;
+      h1 {
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 3rem;
+      }
+      .a-gal-img {
+        height: 450px;
+        border-radius: 15px;
+        margin-top: 2rem;
+      }
+    }
+
+    .m-gallery-text-div {
+      //   border: solid 4px purple;
+      margin: 2rem;
+      font-size: 1.1rem;
+
+      hr {
+        color: grey;
+      }
+    }
+  }
+
+  .m-portrait_image {
+    margin: 3rem;
+    border-radius: 10px 100px / 120px;
+    grid-area: m-image;
+    background-image: url(/assets/images/page-gallery/portrait-hina.svg);
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  h2 {
+    font-size: 1rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all 0.8s ease;
+  }
+  h2:hover {
+    opacity: 1;
+  }
+}
+
+.m-portrait_image:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}

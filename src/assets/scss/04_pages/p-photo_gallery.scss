@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan&display=swap");
+
+.o-gallery_content {
+  // border: 1px solid red;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "m-titre m-titre m-titre m-titre m-titre m-titre"
+    "o-reseaux o-content o-content o-content o-content o-content";
+  .m-titre-div {
+    grid-area: m-titre;
+    text-align: end;
+    text-decoration: line-through 5px red;
+    margin: -20px 280px 0 -50px;
+    .a-titre {
+      font-size: 70px;
+      font-weight: 500;
+      font-family: "Kodchasan", sans-serif;
+    }
+  }
+
+  .o-content {
+    grid-area: o-content;
+    display: flex !important;
+    align-items: center;
+    width: 95%;
+    // border: 1px solid red;
+    .m-first-gallery img,
+    .m-third-gallery img {
+      width: 280px;
+      border-radius: 10px;
+      margin-bottom: 10%;
+    }
+    .container::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+    // .m-first-gallery, .m-second-gallery, .m-third-gallery {
+    //   border: 1px solid red;
+    // }
+    .m-first-gallery {
+      overflow: auto;
+      height: 60vh;
+      display: flex;
+      flex-direction: column-reverse;
+      border-radius: 10px;
+      // border: 1px solid red;
+    }
+    .m-second-gallery__img {
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      height: 65vh;
+      margin-left: 100px;
+      border-radius: 10px;
+      // border: 1px solid blue;
+      &__img {
+        width: 400px;
+        border-radius: 10px;
+        margin-bottom: 10%;
+      }
+    }
+    .m-third-gallery {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 0px;
+      right: 75px;
+      overflow: auto;
+      height: 100vh;
+      border-radius: 10px;
+      // border: 1px solid brown;
+    }
+  }
+}
+
+.reveal-loaded .reveal [class*="reveal-"] {
+  opacity: 0 !important;
+  animation: none !important;
+  transition: 0s !important;
+}
+
+.reveal-loaded [class*="reveal-"] {
+  animation: revealAnimation 1s cubic-bezier(0.5, 0, 0, 1) both;
+}
+
+.reveal-loaded .reveal-2 {
+  animation-delay: 0.2s;
+}
+
+.reveal-loaded .reveal-3 {
+  animation-delay: 0.4s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-loaded [class*="reveal-"] {
+    animation: none !important;
+  }
+}
+
+@keyframes revealAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

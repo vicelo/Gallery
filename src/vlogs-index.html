@@ -1,0 +1,59 @@
+@@include('partials/includes/inc-html-head.html',{ "-title": "Vlogs", })
+
+<body class="o-vblog">
+@@include('partials/_organisms/header-index.html')
+
+  <main class="container">
+    <section class="o-vlogs-section container-section">
+      <div class="m-titre-div">
+        <h1 class="a-titre">Japanese Lifestyle Vlog</h1>
+      </div>
+
+
+      <article class="o-vlog_content-div">
+        <!-- PARTIE DEBUT SLIDER -->
+        <div class="o-vlog-slider-div">
+          <div class="m-paragraph-div">
+            <h2 class="a-paragraph">Sharing my lifestyle <br> through vlogs</h2>
+          </div>
+          <div class="m-slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="m-vlog-mySlides fade">
+              <iframe width="560" height="315" class="a-iframe" src="https://www.youtube.com/embed/C-svJ8-yjhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="m-vlog-mySlides fade">
+              <iframe width="560" height="315" class="a-iframe" src="https://www.youtube.com/embed/7J-8IsgyPnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="m-vlog-mySlides fade">
+              <iframe width="560" height="315" class="a-iframe" src="https://www.youtube.com/embed/Y52ffuKROwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="a-vlog-prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="a-vlog-next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="m-vlog-carousel-div">
+              <a class = "a-lien" href="#">Watch on my YouTube Channel</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- FIN SLIDER -->
+      <!-- PARTIE LIEN RESEAUX -->
+      <div class="o-reseaux">
+        <div class="m-reseaux_content">
+          <a href="https://twitter.com/" target="_blank"><img src="/images/icons_noir/twitter.svg" alt="" /></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="/images/icons_noir/instagram.svg" alt="" /></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="/images/icons_noir/youtube.svg" alt="" /></a>
+          <a href="https://www.snapchat.com/" target="_blank"><img src="/images/icons_noir/snap.svg" alt="" /></a>
+      </div>
+        <!-- <div class="a-reseaux_ligne"></div> -->
+      </div>
+    </section>
+  </main>
+<!-- @@include('partials/organisms/o-footer.html') -->
+
+    <script src="/scripts/vlogs-main.js"></script>
+  </body>
+</html>

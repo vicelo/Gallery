@@ -1,0 +1,40 @@
+.a-button {
+    width: 115px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .a-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .a-button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .a-button:hover span {
+    padding-right: 15px;
+  }
+  
+  .a-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .btn-gallery {
+    width: 180px;
+  }

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2? family = Playfair + Display & display = swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+.container {
+  max-width: 1920px;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .o-reseaux {
+    grid-area: o-reseaux;
+    position: absolute;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    bottom: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    margin-left: -10px;
+    padding: 25px;
+    .a-reseaux_ligne {
+      display: none;
+    }
+  }
+}
