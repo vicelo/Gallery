@@ -1,35 +1,47 @@
 @@include('partials/includes/inc-html-head.html',{ "-title": "The bus traveler", })
 
 <body class="p-bus_gallery">
+<!--
+========================================================================================================================
+== HEADER MAIN
+========================================================================================================================
+-->  
   @@include('partials/_organisms/o-header.html')
 
-  <main class="container">
-    <section class="t-sous-gallery_content">
-      <article class="o-gallery_paragraph">
-        <div class="m-gallery-div">
-          <h1 class="a-titleH1">The bus traveler</h1>
-          <img src="assets/images/photo/bus-traveller.jpg" alt="bus-traveller" class="a-gal-img">
+<main class="container">
+  <section class="t-galleryContent">
+    <article class="o-gallery_paragraph">
+      <div class="m-galleryPresentation">
+        <h1 class="a-titleH1">The bus traveler</h1>
+        <img src="assets/images/photo/bus-traveller.jpg" alt="bus-traveller" class="m-galleryPresentation__image">
+      </div>
+      <div class="m-galleryPresnetationText">
+        <p class="a-paragraph">Will you ? Will you come with me taking the bus and head to nowhere ? Will you ? Will
+          you take the risk to take that bus and follow your dream on the road ? Will take that risk ? Will you... </p>
+        <p class="a-paragraph">*Going on pic-nic 04.22.2021*</p>
+        <hr class="a-separe">
+        <div class="m-galleryPresnetationText__button">
+          <a class="a-btn -primary" href="photo_gallery-index.html">Return to Gallery</a>
+          <a class="a-btn -primary" href="index.html">Return to About</a>
         </div>
-        <div class="m-gallery-text-div">
-          <p class="a-paragraph">Will you ? Will you come with me taking the bus and head to nowhere ? Will you ? Will
-            you take the risk to take that bus and follow your dream on the road ? Will take that risk ? Will you... <br><br> <span> *Going on
-              pic-nic 04.22.2021*</span></p>
-          <hr>
-          <a class="a-btn" href="photo_gallery-index.html">Return to Gallery</a>
-          <a class="a-btn" href="index.html">Return to About</a>
-        </div>
-      </article>
-      <article class="m-galleryImageRight">
-        <div class="m-galleryImageRight__content">
-          <img class="m-galleryImageRight__content__image" src="assets/images/photo/bus-traveller.jpg" alt="bus-traveller" >
-          <h2 class="a-titleH2">Hina <br> Nakayama</h2>
-        </div>
-      </article>
-    </section>
-  </main>
+      </div>
+    </article>
+    <article class="m-galleryImageRight">
+      <div class="m-galleryImageRight__content">
+        <img class="m-galleryImageRight__content__image" src="assets/images/photo/bus-traveller.jpg" alt="bus-traveller" >
+        <p class="m-galleryImageRight__content__textLegend">Hina <br> Nakayama</p>
+      </div>
+    </article>
+  </section>
+</main>
+
+<!--
+========================================================================================================================
+== FOOTERS
+========================================================================================================================
+-->
 
   @@include('partials/_organisms/o-footer.html') 
-
 </body>
 
 </html>

@@ -1,6 +1,5 @@
-========================================================================================================================
-== Documentation intégrateur - Organisation Atomic Design
-========================================================================================================================
+## Documentation intégrateur - Organisation Atomic Design
+
 
 L’ensemble des éléments intégrés est fait en atomic design avec pour nomenclature de nommage et d'arborescence
 de la page le Block Element Modifier (BEM)
@@ -9,19 +8,18 @@ Les pages sont construites en mobile first: contruction de la page en priorité 
 de 375px de largeur.
 
 
-------------------------------------------------------------------------------------------------------------------------
-1)	Atomic design :
-------------------------------------------------------------------------------------------------------------------------
+### 1)	Atomic design :
 
-Rappels:
 
-•   Un atome ne peux pas contenir/appeler un autre atome, créer une molécule
-•   Un atome doit avoir une structure "simple"
-•   Une molécule peut contenir un ou plusieurs atomes
-•   Une molécule ne peux pas contenir/appeler une autre molécule, créer un organisme
-•   Un organisme peut contenir des atomes et des molécules
+#### Rappels:
 
-________________________________________________________________________________________________________________________
+-  Un atome ne peux pas contenir/appeler un autre atome, créer une molécule
+-   Un atome doit avoir une structure "simple"
+-   Une molécule peut contenir un ou plusieurs atomes
+-   Une molécule ne peux pas contenir/appeler une autre molécule, créer un organisme
+-   Un organisme peut contenir des atomes et des molécules
+
+
 
 Les divers éléments constituants l'atomic design (atome, molécules, organismes, templates, pages) , HTML ou CSS sont
 régroupés et classés par type d'entité, dans les répertoires suivants :

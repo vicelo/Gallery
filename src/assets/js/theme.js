@@ -2,7 +2,7 @@
 // Initialize plugins and behaviors on document ready
 //
 
-$(function (){
+/*$(function (){
 
     aboutMain.init()
 
@@ -156,4 +156,4 @@ var vlogMain = {
         
         }
     }
-}
+}*/
