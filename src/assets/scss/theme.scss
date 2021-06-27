@@ -10,7 +10,9 @@
  * __________________________________________________
  */
 
-@import "01_atoms/a-button.scss";
+@import "01_atoms/_a-paragraph";
+@import "01_atoms/_a-titles";
+@import "01_atoms/_a-button";
 
 /*
  *  ## - Molecules
@@ -43,8 +45,6 @@
 @import "04_pages/p-blog_2";
 @import "04_pages/p-blog_3";
 @import "04_pages/p-blogs";
-@import "04_pages/p-gallery_1";
-@import "04_pages/p-gallery_2";
-@import "04_pages/p-gallery_3";
+@import "04_pages/p-gallery";
 @import "04_pages/p-photo_gallery";
 @import "04_pages/p-vlogs";

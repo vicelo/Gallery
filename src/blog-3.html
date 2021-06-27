@@ -1,7 +1,7 @@
 @@include('partials/includes/inc-html-head.html',{ "-title": "Blog 3", })
 
 <body>
-  @@include('partials/_organisms/header-index.html')
+  @@include('partials/_organisms/o-header.html')
 
   <main class="container">
     <section class="o-blog3-first_content">
@@ -54,20 +54,8 @@
       </article>
     </section>
   </main>
-  <footer class="o-footer">
-    <nav class="m-header">
-      <ul>
-        <li><img src="/images/page_blogs/icons_mobile_noir/profile.svg" alt=""><a class="a-lien"
-            href="about-index.html">Me!</a></li>
-        <li><img src="/images/page_blogs/icons_mobile_noir/Vector.svg" alt=""><a class="a-lien"
-            href="vlogs-index.html">Vlogs</a></li>
-        <li id="main"><img src="/images/page_blogs/icons_mobile_noir/blog_link.svg" alt=""><a class="a-lien"
-            href="blogs-index.html">Blogs</a></li>
-        <li><img src="/images/page_blogs/icons_mobile_noir/gallery_link.svg" alt=""><a class="a-lien"
-            href="photo_gallery-index.html">Photo<br>Gallery</a></li>
-      </ul>
-    </nav>
-  </footer>
+  @@include('partials/_organisms/o-footer.html') 
+
 </body>
 
 </html>

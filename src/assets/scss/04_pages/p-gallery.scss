@@ -1,0 +1,52 @@
+.t-sous-gallery_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  .o-gallery_paragraph {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    .m-gallery-div {
+      margin: 3rem;
+
+      .a-gal-img {
+        width: 450px;
+        border-radius: 15px;
+        margin-top: 2rem;
+      }
+    }
+
+    .m-gallery-text-div {
+      margin: 2rem;
+      display: flex;
+      font-size: 1.1rem;
+      flex-direction: column;
+    }
+  }
+
+  .m-galleryImageRight{
+    width: 50%;
+  //  margin: 3rem;
+  &__content{
+    width: 630px;
+    overflow: hidden;
+    border-radius: 10px 100px / 120px;
+
+    &__image{
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;  
+      &:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        cursor: pointer;
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+      }
+    }
+    }
+  }
+}

@@ -1,7 +1,7 @@
-@@include('partials/includes/inc-html-head.html')
+@@include('partials/includes/inc-html-head.html',{ "-title": "Accueil", })
 
 <body class="o-main">
-  @@include('partials/_organisms/header-index.html')
+  @@include('partials/_organisms/o-header.html')
 
   <main class="o-main-index container">
     <div class="m-logo-mobile">
@@ -11,7 +11,7 @@
       <section id="page1cb page1" class="o-accueil" for="page2cb">
         <div class="o-reseaux">
           <div class="m-reseaux_content">
-            <a href="https://twitter.com/" target="_blank"><img src="/images/icons_rose/twitter.svg" alt="" /></a>
+            <a href="https://twitter.com/" target="_blank"><img src="/images/icons_rose/twitter_twitter_twitter.svg" alt="" /></a>
             <a href="https://www.instagram.com/" target="_blank"><img src="/images/icons_rose/instagram.svg"
                 alt="" /></a>
             <a href="https://www.youtube.com/" target="_blank"><img src="/images/icons_rose/youtube.svg" alt="" /></a>
@@ -78,21 +78,6 @@
       </section>
       <carousel>
   </main>
-  <footer class="o-footer">
-    <nav class="m-header">
-      <ul>
-        <li id="main"><img src="/images/icons_mobile_rose/profile.svg" alt=""><a class="a-lien"
-            href="about-index.html">Me!</a></li>
-        <li><img src="/images/icons_mobile_rose/vlog.svg" alt=""><a class="a-lien" href="vlogs-index.html">Vlogs</a>
-        </li>
-        <li><img src="/images/icons_mobile_rose/blog_link.svg" alt=""><a class="a-lien"
-            href="blogs-index.html">Blogs</a></li>
-        <li><img src="/images/icons_mobile_rose/gallery_link.svg" alt=""><a class="a-lien"
-            href="photo_gallery-index.html">Photo<br>Gallery</a></li>
-      </ul>
-    </nav>
-  </footer>
-  <!-- @@include('partials/organisms/o-footer.html') -->
 
-  <script src="/scripts/about-main.js"></script>
+  @@include('partials/_organisms/o-footer.html') 
 </body>

@@ -1,26 +1,35 @@
 @@include('partials/includes/inc-html-head.html',{ "-title": "The bus traveler", })
 
-<body class="o-bus_gallery">
-@@include('partials/_organisms/header-index.html')
+<body class="p-bus_gallery">
+  @@include('partials/_organisms/o-header.html')
 
-    <main class="container">
-        <section class="o-sous-gallery_content">
-          <article class="o-gallery_paragraph">
-            <div class="m-gallery-div">
-              <h1 class="a-titre">The bus traveler</h1>
-              <img src="assets/images/bus-traveller.svg" alt="bus-traveller" class="a-gal-img">
-            </div>
-            <div class="m-gallery-text-div">
-              <p class="a-gallery_paragraph">Will you ? Will you come with me taking the bus and head to nowhere ? Will you ? Will you take the risk to take that bus and follow your dream on the road ? Will you... <br><br> <span> *Going on pic-nic 04.22.2021*</span></p>
-              <hr>
-              <a href="photo_gallery-index.html"><button class="a-button btn-gallery"><span>Return to Gallery</span></button></a>
-              <a href="index.html"><button class="a-button btn-gallery"><span>Return to About</span></button></a>
-            </div>
-          </article>
-          <article class="m-bus_image">
-            <h2>Hina <br> Nakayama</h2>
-          </article>
-        </section>
-      </main>
-  </body>
+  <main class="container">
+    <section class="t-sous-gallery_content">
+      <article class="o-gallery_paragraph">
+        <div class="m-gallery-div">
+          <h1 class="a-titleH1">The bus traveler</h1>
+          <img src="assets/images/photo/bus-traveller.jpg" alt="bus-traveller" class="a-gal-img">
+        </div>
+        <div class="m-gallery-text-div">
+          <p class="a-paragraph">Will you ? Will you come with me taking the bus and head to nowhere ? Will you ? Will
+            you take the risk to take that bus and follow your dream on the road ? Will you... <br><br> <span> *Going on
+              pic-nic 04.22.2021*</span></p>
+          <hr>
+          <a class="a-btn" href="photo_gallery-index.html">Return to Gallery</a>
+          <a class="a-btn" href="index.html">Return to About</a>
+        </div>
+      </article>
+      <article class="m-galleryImageRight">
+        <div class="m-galleryImageRight__content">
+          <img class="m-galleryImageRight__content__image" src="assets/images/photo/bus-traveller.jpg" alt="bus-traveller" >
+          <h2 class="a-titleH2">Hina <br> Nakayama</h2>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  @@include('partials/_organisms/o-footer.html') 
+
+</body>
+
 </html>
