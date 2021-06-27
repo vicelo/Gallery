@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  .o-gallery_paragraph {
+  .o-gallery__paragraph {
     width: 60%;
     height: 600px;
     display: flex;
@@ -18,7 +18,7 @@
       }
     }
 
-    .m-galleryPresnetationText{
+    .m-galleryPresentationText{
       margin: 0 2rem;
       display: block; 
       &__button{
