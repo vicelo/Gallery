@@ -1,0 +1,52 @@
+/*
+ *  ## - Atom link
+ * __________________________________________________
+ */
+
+ .a-link{
+    font-family: Poppins,sans-serif;
+    color: $brand-black-333333;
+    font-size: $size_14; 
+    line-height: $size_28;
+    text-decoration: underline;
+  }  
+  a.a-btn:hover{
+    text-decoration:none;
+  }
+  
+  .a-linkNav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(13, 1, 1, 0.807);
+    height: 40px;
+    padding: $size_8 $size_8;
+    cursor: pointer;  
+    text-decoration: none;
+
+    &.active{
+      color:  $brand-black;
+      transition-duration: 0.1s;
+      span{
+        &::before{
+          color: $brand-black;
+        }
+      }
+    }
+  
+    &:hover{
+        color: rgb(13, 1, 1);
+    }
+    .a-link{
+        &__logo{
+            grid-area: logo;
+            font-weight: 900;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+  
+  
+  
