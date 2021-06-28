@@ -2,22 +2,11 @@
   background-color: #efce6f;
 }
 
-.a-ligne {
-  width: 300px;
-  border: 0.1px solid black;
-}
-.a-border {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-.o-blogs_first_content img,
-.o-blogs_last_content img {
+.o-blogs_first_content .blog-image,
+.o-blogs_last_content .blog-image {
   width: 150px;
   height: 200px;
 }
-
-
 
 .o-blog_content {
   height: 90vh;
@@ -70,6 +59,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    .a-ligne {
+      width: 300px;
+      border: 0.1px solid black;
+    }
+    .a-border {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
 
     .o-cercles {
       display: flex;
