@@ -1,7 +1,7 @@
 
 
 .a-titleH1,.a-titleH2,.a-titleH3,.a-titleH4,.a-titleH5,.a-titleH6{
-    font-family: Poppins,sans-serif;
+    font-family: "Playfair Display", serif;
     &.-bold{
         font-weight: bold;
     }
@@ -14,11 +14,11 @@
 }
 .a-titleH1{
     font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 3rem;
+    font-weight: 500;
+    font-size: 4rem;
 }
 .a-titleH2{
-    
+    font-size: 2em;
 }
 .a-titleH3{
     font-size: 1.5em;
@@ -27,8 +27,8 @@
     font-size: 1.3em;
 }
 .a-titleH5{
-    
+    font-size: 1em;
 }
 .a-titleH6{
-    
+    font-size: 0.8em;
 }

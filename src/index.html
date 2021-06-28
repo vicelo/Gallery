@@ -4,27 +4,21 @@
   @@include('partials/_organisms/o-header.html')
   <div class="container">
     <main class="t-accueil">
+      
       <div class="o-reseaux">
-        <div class="m-reseaux_content">
-          <a href="https://twitter.com/" target="_blank"></a>
-          <a href="https://www.instagram.com/" target="_blank"></a>
-          <a href="https://www.youtube.com/" target="_blank"></a>
-          <a href="https://www.snapchat.com/" target="_blank"></a>
-        </div>
+        @@include('partials/_molecules/m-reseaux.html')
         <div class="a-reseaux_main-ligne"></div>
       </div>
-
+      
       <div class="o-main-content">
+        <div class="main-top-ligne"></div>
         <div class="m-content">
           <div class="a-ligneVertical"></div>
           <div class="m-content__texte">
-            <h2 class="a-titleH3">おはよう!</h2>
+            <h2 class="a-titleH2">おはよう!</h2>
             <h1 class="a-titleH1">It's Hina Nakayama.</h1>
-            <p class="a-titleH4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-              quas aliquid iste neque numquam. Porro iure, itaque tempora
-              nesciunt fugit doloribus quam rem nisi pariatur nihil corporis
-              nulla quo quas.
+            <p class="a-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem ante, sollicitudin et elementum quis, ultrices vitae dolor.
             </p>
           </div>
         </div>
@@ -34,7 +28,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 270">
               <defs>
                 <pattern id="pattern1" patternUnits="userSpaceOnUse" width="800" height="800">
-                  <image href="/images/page_about/main.svg" x="0" y="0" width="300" height="300"> </image>
+                  <image href="/images/photo/main_img.jpg" x="0" y="0" width="300" height="300"> </image>
                 </pattern>
               </defs>
               <path class="icon1" />
@@ -44,7 +38,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 270">
               <defs>
                 <pattern id="pattern2" patternUnits="userSpaceOnUse" width="500" height="500">
-                  <image href="/images/page_about/top.svg" x="0" y="0" width="300" height="300"> </image>
+                  <image href="/images/photo/main_top.jpg" x="0" y="0" width="300" height="300"> </image>
                 </pattern>
               </defs>
               <path class="icon2" />
@@ -54,7 +48,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 270">
               <defs>
                 <pattern id="pattern3" patternUnits="userSpaceOnUse" width="800" height="800">
-                  <image href="/images/page_about/bottom.svg" x="0" y="0" width="300" height="300"> </image>
+                  <image href="/images/photo/main_bottom.jpg" x="0" y="0" width="300" height="300"> </image>
                 </pattern>
               </defs>
               <path class="icon3" />
