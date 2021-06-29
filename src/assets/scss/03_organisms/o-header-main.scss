@@ -1,6 +1,4 @@
-
-
-.o-headerMain{
+.o-headerMain {
   width: 65%;
   margin-left: 15px;
   position: fixed;
@@ -16,8 +14,8 @@
   grid-template-areas: "logo nav nav nav";
   background-color: unset;
   font-family: "Poppins", sans-serif;
-  .a-link{
-    &__logo{
+  .a-link {
+    &__logo {
       grid-area: logo;
       font-weight: 900;
       font-size: 20px;
@@ -25,28 +23,26 @@
       color: black;
     }
   }
-&__navbar{
-  display: flex;
-  flex-direction: column;
+  &__navbar {
+    display: flex;
+    flex-direction: column;
 
-  .m-nav {
-    width: 600px;
-    margin-right: 350px;
-    grid-area: nav;
+    .m-nav {
+      width: 600px;
+      margin-right: 420px;
+      grid-area: nav;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       list-style: none;
+    }
   }
 }
 
 
 
 
-
-}
-
-footer {
+/* footer {
   display: none;
 }
 
@@ -110,4 +106,4 @@ footer {
       }
     }
   }
-}
+} */

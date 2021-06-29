@@ -64,67 +64,47 @@
   }
 }
 
-@media screen and (max-width: 700px) {
-  .o-blog1-first_content {
-    background-color: #f6947e;
-    height: 1500px;
-    height: 80vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "o-reseaux o-blog_article";
-    margin-top: 5px;
-    .o-reseaux {
-      margin-left: -10px;
-    }
+// @media screen and (max-width: 700px) {
+//   .o-blog1-first_content {
+//     background-color: #f6947e;
+//     height: 1500px;
+//     height: 80vh;
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 1fr;
+//     grid-template-areas: "o-reseaux o-blog_article";
+//     margin-top: 5px;
+//     .o-reseaux {
+//       margin-left: -10px;
+//     }
 
-    .o-blog_article {
-      grid-area: o-blog_article;
-      border: none;
-      .m-top-img_article {
-        opacity: 1;
-        border: 2px solid white;
-        margin: 4px;
-      }
-      .m-article_img img {
-        top: -10px;
-        left: 40px;
-        width: 125px;
-        height: 190px;
-      }
-      .o-mon_article {
-        margin-top: 20px;
-        .m-article {
-          padding: 0px;
-          margin-left: 0px;
-          .m-para {
-            margin-left: 50px;
-            p {
-              font-size: 14px;
-            }
-          }
-        }
-      }
-    }
-  }
-  /*   .o-footer {
-    // display: block;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    background-color: white;
-    margin-top: 75px;
-    margin-left: -7px;
-    padding: 1px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    .m-header li,
-    .m-header .a-link {
-      background-color: white !important;
-    }
-    li#main,
-    #main .a-link {
-      background-color: #f6947edc !important;
-    }
-  } */
-}
+//     .o-blog_article {
+//       grid-area: o-blog_article;
+//       border: none;
+//       .m-top-img_article {
+//         opacity: 1;
+//         border: 2px solid white;
+//         margin: 4px;
+//       }
+//       .m-article_img img {
+//         top: -10px;
+//         left: 40px;
+//         width: 125px;
+//         height: 190px;
+//       }
+//       .o-mon_article {
+//         margin-top: 20px;
+//         .m-article {
+//           padding: 0px;
+//           margin-left: 0px;
+//           .m-para {
+//             margin-left: 50px;
+//             .a-paragraph {
+//               font-size: 14px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

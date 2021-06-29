@@ -1,21 +1,23 @@
 @@include('partials/includes/inc-html-head.html',{ "-title": "The hiden street", })
 
-<body class="o-street_gallery">
+<body class="p-street_gallery">
 @@include('partials/_organisms/o-header-main.html')
 
     <main class="container">
-      <section class="o-sous-gallery_content">
+      <section class="t-galleryContent">
         <article class="o-gallery_paragraph">
-          <div class="m-gallery-div">
+          <div class="m-galleryPresentation">
               <h1 class="a-titleH1">The hiden street</h1>
-              <img src="assets/images/photo/gallery_tokyo-night.jpg" alt="street_image" class="a-gal-img">
-            </div>
-            <div class="m-gallery-text-div">
-              <p class="a-gallery_paragraph">Those kind of streets are really common in Japan. You can find any kind of streets food, you can go groceries shopping or simply take a walk in here.<br><br> <span>*Eating streets food 03.15.2021.*</span></p>
-              <hr>
-              <a href="photo_gallery.html"><button class="a-button btn-gallery"><span>Return to Gallery</span></button></a>
-              <a href="index.html"><button class="a-button btn-gallery"><span>Return to About</span></button></a>
-            </div>
+              <img src="assets/images/photo/gallery_tokyo-night.jpg" alt="street_image" class="m-galleryPresentation__image">
+          </div>
+          <div class="m-galleryPresnetationText">
+              <p class="a-paragraph">Those kind of streets are really common in Japan. You can find any kind of streets food, you can go groceries shopping or simply take a walk in here.<br><br> <span>*Eating streets food 03.15.2021.*</span></p>
+              <hr class="a-separe">
+              <div class="m-galleryPresentationText__button">
+                <a class="a-btn -primary" href="photo_gallery.html">Return to Gallery</a>
+                <a class="a-btn -primary" href="index.html">Return to About</a>
+              </div>
+          </div>
           </article>
           <article class="m-galleryImageRight">
             <div class="m-galleryImageRight__content">

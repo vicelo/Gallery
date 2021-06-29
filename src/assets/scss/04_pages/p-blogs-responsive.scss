@@ -1,0 +1,76 @@
+@media screen and (max-width: 1370px) {
+  .o-blog {
+    background-color: white;
+    height: 950px;
+    .a-paragraph {
+      font-size: 12px;
+    }
+  }
+
+  .o-blog_content {
+    margin-top: 50px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "o-reseaux o-blogs_last_content";
+
+    .o-reseaux {
+      grid-area: o-reseaux;
+      background-color: #efce6f !important;
+      margin-left: -10px;
+      position: fixed;
+      .a-reseaux_blog-ligne {
+        display: none !important;
+      }
+    }
+
+    .o-blogs_first_content {
+      grid-area: o-blogs_first_content;
+      margin-top: 300px;
+      margin-right: 0;
+      width: auto;
+      .blog-image {
+        width: 100px;
+        height: 150px;
+      }
+      .m-first_article {
+        width: 355px;
+        margin-left: -190px;
+      }
+    }
+
+    .o-history_lignes {
+      display: none;
+    }
+  }
+  .o-blogs_last_content {
+    grid-area: o-blogs_last_content;
+    position: absolute;
+    margin-top: 0;
+    height: 800px;
+    left: 20px;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .blog-image {
+      width: 100px;
+      height: 150px;
+    }
+    .m-second_article,
+    .m-third_article {
+      display: flex;
+      .blog-image {
+        margin-right: 10px;
+        border-radius: 10px;
+      }
+      .a-article_date {
+        height: 40px;
+        margin-top: 15px;
+        padding-left: 5px;
+        border-left: 3px solid black;
+      }
+    }
+  }
+}

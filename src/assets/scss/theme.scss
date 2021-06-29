@@ -3,12 +3,11 @@
  * __________________________________________________
  */
 
- @import "_settings/_colors";
+@import "_settings/_colors";
 @import "_settings/_size";
 @import "_settings/_config";
 @import "_settings/_reset";
 @import "_settings/_fonts-local";
-
 
 /*
  *  ## - Atoms
@@ -26,7 +25,7 @@
  * __________________________________________________
  */
 
- /*
+/*
  *  ## - organisme
  * __________________________________________________
  */
@@ -35,17 +34,15 @@
 @import "03_organisms/o-reseaux";
 @import "03_organisms/o-footer";
 
- /*
+/*
  *  ## - Templates
  * __________________________________________________
  */
-
 
 /*
  *  ## - Pages
  * __________________________________________________
  */
-
 
 @import "04_pages/p-about";
 @import "04_pages/p-blog_1";
