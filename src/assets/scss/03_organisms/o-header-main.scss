@@ -3,12 +3,19 @@
 .o-headerMain{
   width: 65%;
   margin-left: 15px;
+  position: fixed;
+  z-index: 150;
+  background-color: white !important;
+  width: 1535px;
+  margin: 0;
+  padding: 0 25px 0;
   display: flex;
   align-items: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "logo nav nav nav";
   background-color: unset;
+  font-family: "Poppins", sans-serif;
   .a-link{
     &__logo{
       grid-area: logo;
@@ -24,6 +31,7 @@
 
   .m-nav {
     width: 600px;
+    margin-right: 350px;
     grid-area: nav;
       display: flex;
       flex-direction: row;

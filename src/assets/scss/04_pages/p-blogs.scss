@@ -1,5 +1,11 @@
+
+
 .o-blog {
   background-color: #efce6f;
+  .o-headerMain{
+    position: relative;
+    background-color: #efce6f !important;
+  }
 }
 
 .o-blogs_first_content .blog-image,
@@ -17,7 +23,8 @@
   display: flex;
   flex-direction: row;
   .o-reseaux {
-    margin-left: -85px;
+    margin-left: -55px;
+    margin-bottom: 15px;
   }
   .a-btn {
     width: 150px;
@@ -25,7 +32,7 @@
   .o-blogs_first_content {
     // grid-area: o-blogs_first_content;
     width: 580px;
-    margin-right: 660px;
+    margin-right: 680px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,6 +52,14 @@
       }
       .m-article_titre {
         margin-left: 15px;
+        // .a-ligne {
+        //   width: 20px;
+        //   border: 0.1px solid black;
+        // }
+        .a-border {
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+        }
       }
     }
   }
@@ -59,15 +74,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    .a-ligne {
-      width: 300px;
-      border: 0.1px solid black;
-    }
-    .a-border {
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-    }
-
     .o-cercles {
       display: flex;
       flex-direction: column;
@@ -97,7 +103,7 @@
       .m-ligne {
         // border: 1px solid darkcyan;
         .a-history_ligne {
-          width: 120px;
+          width: 100px;
           height: 1px;
           border: 1px solid black;
           background-color: black;
@@ -113,9 +119,9 @@
 .o-blogs_last_content {
   grid-area: o-blogs_last_content;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 25px;
   height: 600px;
-  left: 965px;
+  left: 945px;
   width: 550px;
   display: flex;
   flex-direction: column;
@@ -132,6 +138,10 @@
       margin-top: 15px;
       padding-left: 5px;
       border-left: 3px solid black;
+    }
+    .a-border {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
     }
   }
 }

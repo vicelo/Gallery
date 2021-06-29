@@ -4,7 +4,6 @@
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "o-reseaux o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article";
-  margin-top: 30px;
 
   .o-blog1_article {
     grid-area: o-blog_article;
@@ -12,6 +11,7 @@
     border-radius: 10px;
     width: 99%;
     position: relative;
+    margin-top: 75px;
     .m-top-img_article {
       background-image: url(../images/photo/blog_train.jpg);
       background-position: center;
