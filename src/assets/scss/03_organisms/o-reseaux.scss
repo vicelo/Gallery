@@ -4,13 +4,17 @@
   align-items: flex-end;
 
   .m-reseaux_content {
-    height: 140px;
-    width: 50px;
-    padding: 0 8% 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    width: 90px;
+    // padding: 0 10% 0;
+    .a-ul-list {
+      height: 150px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: -5px;
+    }
   }
   .a-reseaux_main-ligne,
   .a-reseaux_vlog-ligne,

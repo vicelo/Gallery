@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .o-vlogs-section {
   display: grid;
   grid-template-columns: repeat(15, 1fr);
@@ -6,8 +9,8 @@
     "m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre m-titre"
     "o-reseaux o-content o-content o-content o-content o-content o-content o-content o-content o-content o-content o-content o-content o-content o-content";
   .o-reseaux {
-    margin-left: -40px;
-    margin-bottom: 15px;
+    margin-left: -50px;
+    margin-bottom: 18px;
     .m-reseaux_content {
       margin-bottom: 0px;
       .a-link {
@@ -26,7 +29,7 @@
     border-radius: 50px;
     grid-area: o-content;
     height: 80vh;
-    margin-right: 50px;
+    margin-right: 20px;
     background-image: url("/assets/images/photo/vlog_pexels-pixabay.jpg");
     background-position: center;
 
@@ -38,10 +41,6 @@
         color: white;
         font-family: "Poppins", sans-serif;
       }
-    }
-
-    * {
-      box-sizing: border-box;
     }
 
     /* Slideshow container */
@@ -76,16 +75,13 @@
       }
       .m-vlog-slideshow-container {
         position: relative;
-
         /* Hide the images by default */
         .m-vlog-mySlides {
           width: 500px;
         }
-
         iframe {
           width: 100%;
         }
-
         /* Next & previous buttons */
         .a-vlog-prev,
         .a-vlog-next {
@@ -102,19 +98,16 @@
           border-radius: 0 3px 3px 0;
           user-select: none;
         }
-
         /* Position the "next button" to the right */
         .a-vlog-next {
           right: 0;
           border-radius: 3px 0 0 3px;
         }
-
         /* On hover, add a black background color with a little bit see-through */
         .a-vlog-prev:hover,
         .a-next:hover {
           background-color: rgba(0, 0, 0, 0.8);
         }
-
         /* Fading animation */
         .fade {
           -webkit-animation-name: fade;
@@ -142,11 +135,5 @@
         }
       }
     }
-  }
-  .m-reseaux_content {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between;
-    margin-bottom: 15px;
   }
 }
