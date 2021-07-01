@@ -12,6 +12,11 @@
     margin-top: 400px;
     margin-left: -50px;
     position: fixed;
+    .m-reseaux_content {
+      .a-link {
+        color: black !important;
+      }
+    }
   }
   .m-titre-div {
     grid-area: m-titre;

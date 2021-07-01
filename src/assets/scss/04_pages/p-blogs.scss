@@ -12,6 +12,11 @@
     .o-reseaux {
       margin-left: -55px;
       margin-bottom: 15px;
+      .m-reseaux_content {
+        .a-link {
+          color: black !important;
+        }
+      }
     }
     .a-btn {
       width: 150px;

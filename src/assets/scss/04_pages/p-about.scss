@@ -5,6 +5,11 @@
   .o-reseaux {
     margin-left: -45px;
     margin-bottom: -50px;
+    .m-reseaux_content {
+      .a-link {
+        color: #f08f90 !important;
+      }
+    }
   }
   .o-main-content {
     grid-area: o-content;

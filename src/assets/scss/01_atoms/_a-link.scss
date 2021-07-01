@@ -6,9 +6,10 @@
  .a-link{
     font-family: Poppins,sans-serif;
     color: $brand-black-333333;
-    font-size: $size_14; 
+    font-size: $size_24; 
     line-height: $size_28;
-    text-decoration: underline;
+    text-transform: none;
+    text-decoration: auto;
   }  
   a.a-btn:hover{
     text-decoration:none;

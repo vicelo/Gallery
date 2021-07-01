@@ -5,13 +5,15 @@
 
   .m-reseaux_content {
     height: 140px;
-    width: 25px;
+    width: 50px;
     padding: 0 8% 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
   }
   .a-reseaux_main-ligne,
+  .a-reseaux_vlog-ligne,
   .a-reseaux_blog-ligne,
   .a-reseaux_gallery-ligne,
   .a-reseaux_blog1-ligne,
@@ -24,6 +26,10 @@
 
   .a-reseaux_main-ligne {
     background-color: #f08f90;
+  }
+
+  .a-reseaux_vlog-ligne {
+    background-color: grey;
   }
 
   .a-reseaux_blog-ligne {

@@ -4,7 +4,15 @@
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "o-reseaux o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article";
-
+  .o-reseaux {
+    margin-left: -45px;
+    // margin-bottom: -50px;
+    .m-reseaux_content {
+      .a-link {
+        color: #f6947e !important;
+      }
+    }
+  }
   .o-blog1_article {
     grid-area: o-blog_article;
     border: 2px solid #f6947e;
