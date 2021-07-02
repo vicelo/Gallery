@@ -22,7 +22,7 @@
     grid-area: m-titre;
     text-align: end;
     text-decoration: line-through 5px red;
-    margin: 70px 365px 0 -50px;
+    margin: 70px 425px 0 -50px;
     .a-titleH1 {
       font-size: 70px;
       font-weight: 500;
@@ -35,7 +35,7 @@
     position: relative;
     display: flex !important;
     align-items: center;
-    width: 1175px;
+    width: 1300px;
     margin-top: 160px;
     // margin-right: 50px;
     // border: 1px solid red;
@@ -56,7 +56,7 @@
       display: flex;
       flex-direction: column-reverse;
       border-radius: 10px;
-      margin-right: -100px;
+      // margin-right: -70px;
       top: 10px;
       // border: 1px solid red;
       &__img {
@@ -70,7 +70,7 @@
       flex-direction: column;
       overflow: auto;
       // height: 65vh;
-      margin-left: 410px;
+      margin-left: 475px;
       border-radius: 10px;
       // border: 1px solid blue;
       &__img {

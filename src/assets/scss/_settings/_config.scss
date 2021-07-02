@@ -4,11 +4,11 @@
 
 
 .container {
-  width: 1280px;
-  margin: 0 auto;
+  // min-width: 1280px;
+  margin: auto 50px;
 }
 
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1200px) {
   .o-headerMain {
     width: 1200px !important;
     .o-headerMain__navbar .m-nav {
@@ -19,14 +19,14 @@
   .o-reseaux {
     grid-area: o-reseaux;
     position: absolute;
-    background-color: white;
+    // background-color: white;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     position: fixed;
     display: flex;
     justify-content: center;
     z-index: 100;
-    margin-left: 0px !important;
+    margin-left: -50px !important;
     margin-top: 150px;
     padding: 25px;
   }
