@@ -6,7 +6,7 @@
   grid-template-areas: "o-reseaux o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article";
   .o-reseaux {
     margin-left: -45px;
-    // margin-bottom: -50px;
+    margin-bottom: 35px;
     .m-reseaux_content {
       .a-link {
         color: #b5cfc2 !important;
@@ -17,9 +17,9 @@
     grid-area: o-blog_article;
     border: 2px solid #b5cfc2 !important;
     border-radius: 10px;
-    width: 99%;
+    width: 90%;
     position: relative;
-    margin-top: 85px;
+    margin: 85px;
     .m-top-img_article {
       background-image: url(../images/photo/blog_green2.jpg) !important;
       background-position: top;

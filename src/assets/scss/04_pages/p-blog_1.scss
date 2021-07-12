@@ -6,7 +6,7 @@
   grid-template-areas: "o-reseaux o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article o-blog_article";
   .o-reseaux {
     margin-left: -45px;
-    // margin-bottom: -50px;
+    margin-bottom: 50px;
     .m-reseaux_content {
       .a-link {
         color: #f6947e !important;
@@ -17,9 +17,9 @@
     grid-area: o-blog_article;
     border: 2px solid #f6947e;
     border-radius: 10px;
-    width: 99%;
+    width: 90%;
     position: relative;
-    margin-top: 75px;
+    margin: 75px;
     .m-top-img_article {
       background-image: url(../images/photo/blog_train.jpg);
       background-position: center;

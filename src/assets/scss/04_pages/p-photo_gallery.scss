@@ -1,12 +1,13 @@
 .o-gallery_content {
   // border: 1px solid red;
-  height: 90vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas:
     "m-titre m-titre m-titre m-titre m-titre m-titre"
     "o-content o-content o-content o-content o-content";
+    overflow-x: hidden;
 
   .o-reseaux {
     margin-top: 400px;
@@ -22,7 +23,9 @@
     grid-area: m-titre;
     text-align: end;
     text-decoration: line-through 5px red;
-    margin: 70px 425px 0 -50px;
+    width: 500px;
+    margin-left: 540px;
+    margin-top: 70px;
     .a-titleH1 {
       font-size: 70px;
       font-weight: 500;
@@ -35,8 +38,9 @@
     position: relative;
     display: flex !important;
     align-items: center;
-    width: 1300px;
+    // width: 1300px;
     margin-top: 160px;
+    margin-left: 290px;
     // margin-right: 50px;
     // border: 1px solid red;
     .m-first-gallery img,
@@ -52,11 +56,11 @@
     .m-first-gallery {
       position: absolute;
       overflow: auto;
-      height: 70vh;
+      // height: 70vh;
       display: flex;
       flex-direction: column-reverse;
       border-radius: 10px;
-      // margin-right: -70px;
+      left: -100px;
       top: 10px;
       // border: 1px solid red;
       &__img {
@@ -70,7 +74,7 @@
       flex-direction: column;
       overflow: auto;
       // height: 65vh;
-      margin-left: 475px;
+      margin-left: 340px;
       border-radius: 10px;
       // border: 1px solid blue;
       &__img {
@@ -86,10 +90,10 @@
       display: flex;
       flex-direction: column;
       top: -160px;
-      right: -60px;
+      left: 850px;
       width: fit-content;
       overflow: auto;
-      height: 100vh;
+      // height: 100vh;
       border-radius: 10px;
       // border: 1px solid brown;
       &__img {
