@@ -1,10 +1,11 @@
 .t-accueil {
-  height: 90vh;
+  height: 100vh;
+  overflow: hidden;
   display: flex;
   // justify-content: space-around;
   .o-reseaux {
     margin-left: -45px;
-    margin-bottom: -50px;
+    margin-bottom: 20px;
     .m-reseaux_content {
       .a-link {
         color: #f08f90 !important;
@@ -26,7 +27,7 @@
       grid-area: m-content;
       width: 275px;
       &__texte {
-        margin-top: 15%;
+        margin-top: 30%;
         padding: 5%;
         .a-titleH1 {
           margin-top: -30px;
@@ -52,12 +53,12 @@
         text-align: center;
         position: absolute;
         z-index: 100;
-        left: 70px;
-        top: 100px;
-        border: 1px solid darkblue;
+        left: 90px;
+        top: 20px;
+        // border: 1px solid darkblue;
         svg {
-          width: 400px;
-          height: 400px;
+          width: 500px;
+          height: 500px;
           .icon1 {
             fill: url(#pattern1);
           }
@@ -68,12 +69,12 @@
         text-align: center;
         position: absolute;
         z-index: 160;
-        left: 490px;
-        top: -120px;    
-        border: 1px solid darkblue;
+        left: 505px;
+        top: -180px;  
+        // border: 1px solid darkblue;
         svg {
-          width: 400px;
-          height: 400px;
+          width: 500px;
+          height: 500px;
           .icon2 {
             fill: url(#pattern2);
           }
@@ -83,12 +84,12 @@
         text-align: center;
         position: absolute;
         z-index: 100;
-        top: 335px;
-        left: 490px;
-        border: 1px solid darkblue;
+        left: 480px;
+        bottom: -230px;
+        // border: 1px solid darkblue;
         svg {
-          width: 400px;
-          height: 400px;
+          width: 500px;
+          height: 500px;
           .icon3 {
             fill: url(#pattern3);
           }
@@ -97,8 +98,9 @@
     }
   }
   .m-radio {
+    display: none;
     grid-area: m-radio;
-    display: flex;
+    // display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50px;
