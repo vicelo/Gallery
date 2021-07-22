@@ -7,41 +7,52 @@ footer {
     display: flex;
     position: fixed;
     background-color: #f08f91bb;
-    width: 1000px;
-    padding: 0;
+    width: 100%;
     bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 120px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     .m-header {
+      width: 100%;
       ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        width: 250px;
-        margin-top: 2px;
-        margin-left: -10px;
+        width: fit-content;
+        margin: -5px -10px 0;
+        li {
+          height: 120px;
+          background-color: #f08f91c7;
+          .icon-blog_link, .icon-youtube_link, .icon-gallery_link {
+            color: white !important;
+          }
+        }
         .a-link,
         li {
           text-decoration: none;
           list-style: none;
           color: black;
           font-family: "Poppins", sans-serif;
-          width: 180px;
-          height: 85px;
+          width: 300px;
           margin-top: 5px;
           text-align: center;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-color: #f08f91c7;
+        }
+        li img {
+          border-radius: 50px;
+          width: 100px;
+          margin-top: -60px;
+          margin-bottom: 30px;
         }
         #main {
-          margin-top: -10px;
-          height: 100px;
-          border-top-left-radius: 10px;
-          border-top-right-radius: 10px;
+          margin-top: -55px;
+          height: 175px;
+          border-top-left-radius: 30px;
+          border-top-right-radius: 30px;
         }
       }
     }

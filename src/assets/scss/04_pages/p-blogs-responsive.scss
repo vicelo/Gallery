@@ -1,74 +1,117 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 415px) {
   .o-blog {
     background-color: white;
-    height: 950px;
+    // height: 100vh !important;
     .a-paragraph {
-      font-size: 12px;
+      font-size: 16px;
     }
-  }
+    .container {
+      min-width: 415px !important;
+    }
 
-  .o-blog_content {
-    margin-top: 50px;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "o-reseaux o-blogs_last_content";
+    .o-blog_content {
+      margin-top: 50px;
+      width: 100px !important;
+      .o-reseaux {
+        z-index: 1500;
+        margin-top: 500px;
+        margin-left: 0px;
+        width: 150px;
+        position: fixed;
+        // background-color: #f08f90;
+        background-color: #efce6f;
+        .m-reseaux_content {
+          .a-ul-list {
+            height: 270px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-right: 40px;
+            margin-bottom: 10px;
+          }
+          .a-link {
+            color: black !important;
+          }
+        }
+      }
 
-    .o-reseaux {
-      grid-area: o-reseaux;
-      background-color: #efce6f !important;
-      position: fixed;
-      .a-reseaux_blog-ligne {
-        display: none !important;
+      .o-blogs_first_content {
+        margin-top: 300px;
+        margin-left: 15px;
+        width: 500px !important;
+        .blog-image {
+          width: 100px;
+          height: 150px;
+        }
+        .m-first_article {
+          width: 355px;
+          margin-left: -190px;
+        }
+      }
+      .o-history_lignes {
+        display: none;
       }
     }
-
-    .o-blogs_first_content {
-      grid-area: o-blogs_first_content;
-      margin-top: 300px;
-      margin-right: 0;
-      width: auto;
+    .o-blogs_last_content {
+      position: absolute;
+      margin-top: 0;
+      height: 1000px;
+      left: 15px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       .blog-image {
         width: 100px;
         height: 150px;
       }
-      .m-first_article {
-        width: 355px;
-        margin-left: -190px;
+      .m-second_article,
+      .m-third_article {
+        display: flex;
+        .blog-image {
+          margin-right: 10px;
+          border-radius: 10px;
+        }
+        .a-article_date {
+          height: 40px;
+          margin-top: 15px;
+          padding-left: 5px;
+          border-left: 3px solid black;
+        }
       }
     }
 
-    .o-history_lignes {
-      display: none;
-    }
-  }
-  .o-blogs_last_content {
-    grid-area: o-blogs_last_content;
-    position: absolute;
-    margin-top: 0;
-    height: 800px;
-    left: 20px;
-    width: 385px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    .blog-image {
-      width: 100px;
-      height: 150px;
-    }
-    .m-second_article,
-    .m-third_article {
-      display: flex;
-      .blog-image {
-        margin-right: 10px;
-        border-radius: 10px;
-      }
-      .a-article_date {
-        height: 40px;
-        margin-top: 15px;
-        padding-left: 5px;
-        border-left: 3px solid black;
+    .o-footer {
+      background-color: #efcf6fda;
+      width: 100% !important;
+      .m-header {
+        ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+          width: fit-content;
+          margin: -5px -10px 0;
+          li {
+            height: 120px;
+            background-color: #efcf6fde;
+            .icon-blog_link,
+            .icon-youtube_link,
+            .icon-gallery_link {
+              color: black !important;
+            }
+            .icon-gallery_link .path1:before,
+            .icon-gallery_link .path3:before {
+              color: black;
+            }
+          }
+          .a-link,
+          li {
+            color: black;
+          }
+        }
       }
     }
   }
